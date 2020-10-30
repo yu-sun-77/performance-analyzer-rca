@@ -72,9 +72,9 @@ import org.apache.logging.log4j.util.Supplier;
 public class QueryActionRequestHandler extends MetricsHandler implements HttpHandler {
     public static final String ACTION_SET_JSON_NAME = "LastSuggestedActionSet";
     private static final Logger LOG = LogManager.getLogger(QueryActionRequestHandler.class);
-    public JsonParser jsonParser;
     private Persistable persistable;
     private AppContext appContext;
+    JsonParser jsonParser;
 
     public QueryActionRequestHandler(final AppContext appContext) {
         this.appContext = appContext;
