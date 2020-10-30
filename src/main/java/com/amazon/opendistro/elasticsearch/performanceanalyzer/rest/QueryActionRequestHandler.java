@@ -38,7 +38,6 @@ import org.apache.logging.log4j.util.Supplier;
 
 /**
  * Request Handler that supports querying the latest action set
- *TODO: Update with actual Action Values here and in the README.
  *
  * <p>To get the response for the latest action set suggested via DM Framework
  * curl --url "localhost:9600/_opendistro/_performanceanalyzer/actions" -XGET
